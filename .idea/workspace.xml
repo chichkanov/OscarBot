@@ -6,18 +6,13 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd391b82-72c3-424f-b8a5-ad0a8208df98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/chichkanov/util/Commands.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/chichkanov/util/JsonData.java" />
+    <list default="true" id="dd391b82-72c3-424f-b8a5-ad0a8208df98" name="Default" comment="Add different packs for people types">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/OscarBot.jar" afterPath="$PROJECT_DIR$/builds/OscarBot.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/OscarBot$1.class" afterPath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/OscarBot$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/OscarBot.class" afterPath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/OscarBot.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/service/OscarService.class" afterPath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/service/OscarService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/util/BotParams.class" afterPath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/util/BotParams.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/OscarBot_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/OscarBot_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/OscarBot.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/OscarBot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/service/OscarService.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/service/OscarService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,8 +76,8 @@
       <file leaf-file-name="JsonData.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/chichkanov/util/JsonData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="194" column="16" lean-forward="false" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
+            <state relative-caret-position="408">
+              <caret line="183" column="34" lean-forward="true" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -324,20 +319,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OscarBot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OscarBot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="builds" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -589,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508538786408</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add different packs for people types">
+      <created>1508566700294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1508566700294</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -614,7 +602,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -640,7 +628,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add build for server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add build for server" />
+    <MESSAGE value="Add different packs for people types" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add different packs for people types" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -819,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chichkanov/util/JsonData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="194" column="16" lean-forward="false" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
+        <state relative-caret-position="408">
+          <caret line="183" column="34" lean-forward="true" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
           <folding />
         </state>
       </provider>
