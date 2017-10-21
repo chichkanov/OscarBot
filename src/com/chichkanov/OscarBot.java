@@ -4,7 +4,10 @@ import com.chichkanov.service.OscarService;
 import com.chichkanov.service.TimerExecutor;
 import com.chichkanov.service.UpdateTask;
 import com.chichkanov.util.BotParams;
+import com.chichkanov.util.Commands;
+import com.chichkanov.util.JsonData;
 import org.telegram.telegrambots.api.methods.send.SendMessage;
+import org.telegram.telegrambots.api.objects.Message;
 import org.telegram.telegrambots.api.objects.Update;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.exceptions.TelegramApiException;
@@ -35,13 +38,46 @@ public class OscarBot extends TelegramLongPollingBot {
     @Override
     public void onUpdateReceived(Update update) {
         BotParams.userToChat.add(update.getMessage().getChatId());
+        if (update.hasMessage()) {
+            Message message = update.getMessage();
+            if (message.hasText() || message.hasLocation()) {
+                handleIncomingMessage(message);
+            }
+        }
+    }
 
-        if (update.hasMessage() && update.getMessage().hasText()) {
-            SendMessage message = new SendMessage() // Create a SendMessage object with mandatory fields
-                    .setChatId(update.getMessage().getChatId())
-                    .setText("Бот не поддерживает команды от пользователя в данный момент");
+    private void handleIncomingMessage(Message message) {
+        if (message.getText().startsWith(Commands.commandInitChar)) {
+            String messageText = message.getText();
+
+            SendMessage answer = new SendMessage() // Create a SendMessage object with mandatory fields
+                    .setChatId(message.getChatId());
+
+            String answerText = "Бот не поддерживает данную команду от пользователя";
+
+            String command = messageText.substring(messageText.indexOf('/'), messageText.length());
+            switch (command) {
+                case Commands.buyStudentPack: {
+                    BotLogger.severe(LOGTAG, "Buying student pack");
+                    OscarService.getInstance().buyPack(message.getChatId(), JsonData.STUDENT_PACK_JSON);
+                    answerText = "Вы купили студенческий пак";
+                    break;
+                }
+                case Commands.buyBuilderPack: {
+                    BotLogger.severe(LOGTAG, "Buying builder pack");
+                    OscarService.getInstance().buyPack(message.getChatId(), JsonData.BUILDER_PACK_JSON);
+                    answerText = "Вы купили бодибилдерский пак";
+                    break;
+                }
+                case Commands.buyWomanPack: {
+                    BotLogger.severe(LOGTAG, "Buying woman pack");
+                    OscarService.getInstance().buyPack(message.getChatId(), JsonData.WOMAN_PACK_JSON);
+                    answerText = "Вы купили женский пак";
+                    break;
+                }
+            }
             try {
-                sendMessage(message); // Call method to send the message
+                sendMessage(answer.setText(answerText));
             } catch (TelegramApiException e) {
                 e.printStackTrace();
             }

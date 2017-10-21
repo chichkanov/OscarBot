@@ -1,10 +1,15 @@
 package com.chichkanov.service;
 
+import com.chichkanov.util.JsonData;
 import org.apache.http.HttpEntity;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
 import org.apache.http.conn.ssl.NoopHostnameVerifier;
 import org.apache.http.entity.BufferedHttpEntity;
+import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
@@ -38,7 +43,6 @@ public class OscarService {
     }
 
     public String fetchDiscount(long chatId) {
-
         String requestUrl = BASE_URL + "?" + "id=" + chatId;
         System.out.println(requestUrl);
         CloseableHttpClient client = HttpClientBuilder.create()
@@ -60,4 +64,21 @@ public class OscarService {
         return recomendation;
     }
 
+    public void buyPack(long chatId, String packJson) {
+        HttpClient client = HttpClientBuilder.create().build(); //Use this instead
+
+        System.out.println("Pack bought");
+
+        HttpPost request = new HttpPost(BASE_URL + "transaction/" + "?" + "id=" + chatId);
+        request.setHeader("Accept", "application/json");
+        request.setHeader("Content-type", "application/json");
+        try {
+            StringEntity params =new StringEntity(packJson, "UTF-8");
+            request.setEntity(params);
+            client.execute(request);
+            BotLogger.info(LOGTAG, "Pack BOUGHT");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }
