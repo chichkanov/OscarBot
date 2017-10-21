@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd391b82-72c3-424f-b8a5-ad0a8208df98" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/OscarBot.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/service/OscarService.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/service/OscarService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="OscarService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/chichkanov/service/OscarService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+            <state relative-caret-position="240">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -658,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508618382195</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix api base url">
+      <created>1508624410897</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1508624410897</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -716,7 +722,8 @@
     <MESSAGE value="Fix wrong space" />
     <MESSAGE value="Fix" />
     <MESSAGE value="Fix grammar issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix grammar issue" />
+    <MESSAGE value="Fix api base url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix api base url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -942,8 +949,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chichkanov/service/OscarService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        <state relative-caret-position="240">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
