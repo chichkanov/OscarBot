@@ -6,7 +6,7 @@ package com.chichkanov.util;
  */
 public class JsonData {
 
-    public static final String BUILDER_PACK_JSON = " {\n" +
+    public static final String BUILDER_PACK_JSON = "{\n" +
             "     \"Products\": [\n" +
             "        {\n" +
             "\"ActualPrice\":\n" +
@@ -62,7 +62,7 @@ public class JsonData {
             "     \"TransactionTime\": \"/Date(1508293693628+0300)/\"\n" +
             "  }";
 
-    public static final String STUDENT_PACK_JSON = " {\n" +
+    public static final String STUDENT_PACK_JSON = "{\n" +
             "     \"Products\": [\n" +
             "        {\n" +
             "\"ActualPrice\":\n" +
@@ -128,7 +128,7 @@ public class JsonData {
             "     \"TransactionTime\": \"/Date(1508293693628+0300)/\"\n" +
             "  }";
 
-    public static final String WOMAN_PACK_JSON = " {\n" +
+    public static final String WOMAN_PACK_JSON = "{\n" +
             "     \"Products\": [\n" +
             "        {\n" +
             "\"ActualPrice\":\n" +
