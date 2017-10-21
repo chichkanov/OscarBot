@@ -6,16 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd391b82-72c3-424f-b8a5-ad0a8208df98" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/chichkanov/models/Product.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/OscarBot.class" afterPath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/OscarBot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/service/OscarService.class" afterPath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/service/OscarService.class" />
+    <list default="true" id="dd391b82-72c3-424f-b8a5-ad0a8208df98" name="Default" comment="Add output formatting">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/builds/OscarBot.jar" afterPath="$PROJECT_DIR$/builds/OscarBot.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OscarBot.iml" afterPath="$PROJECT_DIR$/OscarBot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/OscarBot.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/OscarBot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/service/OscarService.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/service/OscarService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/util/Commands.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/util/Commands.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/util/JsonData.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/util/JsonData.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +82,8 @@
       <file leaf-file-name="Product.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/chichkanov/models/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
                 <element signature="e#711#712#0" expanded="true" />
                 <element signature="e#745#746#0" expanded="true" />
@@ -641,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508566771852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add output formatting">
+      <created>1508601445559</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1508601445559</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -694,7 +694,8 @@
     <MESSAGE value="Add build for server" />
     <MESSAGE value="Add different packs for people types" />
     <MESSAGE value="Add new server version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new server version" />
+    <MESSAGE value="Add output formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add output formatting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -889,8 +890,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chichkanov/models/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
             <element signature="e#711#712#0" expanded="true" />
             <element signature="e#745#746#0" expanded="true" />
