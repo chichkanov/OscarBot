@@ -79,8 +79,8 @@ public class OscarBot extends TelegramLongPollingBot {
                     BotLogger.severe(LOGTAG, "Starting bot");
                     OscarService.getInstance().buyPack(message.getChatId(), JsonData.WOMAN_PACK_JSON);
                     answerText = "Привет! Меня зовут Оскар, и я буду предлагать тебе персональные скидки " +
-                            "на продукты, основываясь на твоих предпочтениях. Чем больше ты покупаешь - тем больше" +
-                            "будет точность предложений\nПриятных покупок!";
+                            "на продукты, основываясь на твоих предпочтениях. Чем больше ты покупаешь - тем больше " +
+                            "будет точность предложений. Приятных покупок!";
                     break;
                 }
             }
