@@ -21,7 +21,7 @@ public class OscarService {
 
     private static final String LOGTAG = "OSCARSERVICE";
 
-    private static final String BASE_URL = "http://oscarassistant.ru/api/";
+    private static final String BASE_URL = "http://localhost:8080/api/";
     private static volatile OscarService instance;
 
     private OscarService() {
