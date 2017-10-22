@@ -1,9 +1,7 @@
 package com.chichkanov.service;
 
 import com.chichkanov.models.Product;
-import com.fasterxml.jackson.core.JsonParser;
 import com.google.gson.Gson;
-import jdk.nashorn.internal.parser.JSONParser;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -15,7 +13,6 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.util.EntityUtils;
-import org.json.JSONObject;
 import org.telegram.telegrambots.logging.BotLogger;
 
 import java.io.IOException;
@@ -60,15 +57,16 @@ public class OscarService {
             BufferedHttpEntity buf = new BufferedHttpEntity(ht);
             recomendation = EntityUtils.toString(buf, "UTF-8");
 
-            Gson gson = new Gson();
-            Product product = gson.fromJson(recomendation, Product.class);
-            recomendation = product.getProductName() + "\nЦена: " + product.getPrice() + " руб.";
+            if (recomendation.length() > 1) {
+                Gson gson = new Gson();
+                Product product = gson.fromJson(recomendation, Product.class);
+                recomendation = product.getProductName() + "\nЦена: " + product.getPrice() + " руб.";
+            }
 
             BotLogger.info(LOGTAG, recomendation);
         } catch (IOException e) {
             BotLogger.error(LOGTAG, e);
         }
-
 
 
         return recomendation;
@@ -83,7 +81,7 @@ public class OscarService {
         request.setHeader("Accept", "application/json");
         request.setHeader("Content-type", "application/json");
         try {
-            StringEntity params =new StringEntity(packJson, "UTF-8");
+            StringEntity params = new StringEntity(packJson, "UTF-8");
             request.setEntity(params);
             client.execute(request);
             BotLogger.info(LOGTAG, "Pack BOUGHT");
