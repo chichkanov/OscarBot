@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentSkipListSet;
  */
 public class BotParams {
 
-    public static final int UPDATE_INTERVAL_SECONDS = 3;
+    public static final int UPDATE_INTERVAL_SECONDS = 10;
 
     public static final String BOT_TOKEN = "452246408:AAHs8pxqvWbUGAh3Wfg94S2KSL2ZVSHQNF0";
 

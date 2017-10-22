@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd391b82-72c3-424f-b8a5-ad0a8208df98" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/builds/OscarBot.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/OscarBot.class" afterPath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/OscarBot.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/service/OscarService.class" afterPath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/service/OscarService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/util/BotParams.class" afterPath="$PROJECT_DIR$/out/production/OscarBot/com/chichkanov/util/BotParams.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java" afterPath="$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonData.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JsonData.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/chichkanov/util/JsonData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="338">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -139,11 +136,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BotParams.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BotParams.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -193,8 +190,8 @@
         <option value="$PROJECT_DIR$/src/com/chichkanov/models/Product.java" />
         <option value="$PROJECT_DIR$/src/com/chichkanov/OscarBot.java" />
         <option value="$PROJECT_DIR$/src/com/chichkanov/service/OscarService.java" />
-        <option value="$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java" />
         <option value="$PROJECT_DIR$/src/com/chichkanov/util/JsonData.java" />
+        <option value="$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java" />
       </list>
     </option>
   </component>
@@ -686,7 +683,14 @@
       <option name="project" value="LOCAL" />
       <updated>1508629614370</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="New server build">
+      <created>1508629641407</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1508629641407</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView">
@@ -705,7 +709,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -747,7 +751,8 @@
     <MESSAGE value="Fix api base url" />
     <MESSAGE value="Bot server update" />
     <MESSAGE value="Fix naming convention" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix naming convention" />
+    <MESSAGE value="New server build" />
+    <option name="LAST_COMMIT_MESSAGE" value="New server build" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -870,16 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chichkanov/service/TimerExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/telegram/telegrambots-meta/3.4/telegrambots-meta-3.4.jar!/org/telegram/telegrambots/exceptions/TelegramApiException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -909,16 +904,6 @@
         <state relative-caret-position="135">
           <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,9 +960,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/chichkanov/util/JsonData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="338">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chichkanov/service/TimerExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/chichkanov/util/BotParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="56" lean-forward="false" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
